@@ -9,6 +9,5 @@ int main() {
 
     std::cout << "Value of num is: " << num << " num2: " << num2 << " ch: " << ch << std::endl;
     std::cout << "bool prints as an int: " << isTrue << std::endl;
-    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
