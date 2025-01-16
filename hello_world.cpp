@@ -1,14 +1,7 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-    int num{ 5 };
-    num = 10;
-    double num2{ 5.5 };
-    bool isTrue{ true };
-    char ch{ 'A' };
-
-    std::cout << "Value of num is: " << num << " num2: " << num2 << " ch: " << ch << std::endl;
-    std::cout << "bool prints as an int: " << isTrue << std::endl;
-    std::cout << "Hello, World!" << std::endl;
+    cout << "Hello, World!" << std::endl;
     return 0;
 }
