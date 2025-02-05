@@ -1,12 +1,3 @@
-/**
- * possible lab 2:
- * i can assert that the vector returned==list == std:array
- * modify this to:
- * 1. read names into an array
- * 2. read names into a vector
- * 3. read names into a list
- * 4. sort each of these containers
- */
 #include <fstream>
 #include <string>
 #include <iostream>
