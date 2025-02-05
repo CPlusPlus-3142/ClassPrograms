@@ -1,3 +1,6 @@
+/* in class we will modify this to read the lines
+into an array of type string.
+then, in lab 1, you will add functions. */
 #include <fstream>
 #include <string>
 #include <iostream>
@@ -10,7 +13,7 @@ int main() {
 
     if (file.is_open()) {
         string line;
-        while (file>>line) {  //  (getline(file, line)) { 
+        while (getline(file, line)) { 
             cout << i++ << ": " << line << endl;
         }
         file.close();
