@@ -16,6 +16,17 @@ Chapter 4
 
 string class:  https://liveexample.pearsoncmg.com/liang/cpp3e/html/OrderTwoCities.html
 
+we discussed:
+1. allocating objects on the stack same as local var
+2. you can immediately use the DOT operator to access the object's members
+   example:
+   string s;
+   cout << s.length() << endl;
+3. you can use the assignment operator to assign a string to another string
+4. you can use all relational operators to compare strings
+5. an uninitialized variable in C++ is not a compiler error, some
+undefined value will be printed
+
 Chapter 5
 
 Files: https://liveexample.pearsoncmg.com/liang/cpp3e/html/ReadAllData.html
