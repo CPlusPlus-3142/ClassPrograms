@@ -19,10 +19,10 @@ int main() {
     size_t sz;
 
 
-    extern int size; // somewhere else I defined an int var size
+    extern const int size; // somewhere else I defined an int var size
     // and this is only a declaration
-    size=10;
-    int arr[size];
+    const int SIZE=10;
+    int arr[SIZE];
 
     std::cout << "Value of num is: " << num << " num2: " << num2 << " ch: " << ch << std::endl;
     std::cout << "bool prints as an int: " << isTrue << " char ch: "

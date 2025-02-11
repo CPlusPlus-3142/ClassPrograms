@@ -1,0 +1,29 @@
+What differences did you notice so far between C++ and Java?
+
+1. in C++ you include .h (header) files, while in Java you import the class
+2. in Java all variables are on the stack and all objects are on the heap
+   in C++ you can place objects on the stack and regular variable on the heap
+   (you don't need to say 'new' to get an object)
+3. << and >> in Java are bitwise shift while in C++ they are used for input, out
+using cin and cout
+4. in C++ you can use operators as functions on objects
+   str[i], str1<str2           (operator overloading doesn't exist in Java)
+5. C++ gives more direct access to memory (we still have to talk about this)
+6. possibility of passing parameters by reference (&)
+   in Java all parameters are passed-by-value
+7. In Java, the compiler creates .class files that are portable across all
+   platforms, while in C++ the compiler creates an executable specific to
+   the machine that it compiled on.
+8. In C++ there is more responsibility on the programmer.
+9. There is no garbage collection, so the program has to
+   be responsible to delete memory allocated with new.
+10. with a regular array, the size must be known by compile time
+int arr[SIZE];
+11. in Java, an unitialized variable is a compiler error, not so in C++
+12. in Java, objects and arrays are zeroed out. In C++ arrays are not initialized.
+13. function declarations are needed in C++
+
+some other differences:
+- use #include instead import
+- you must include <string> and in Java you don't have to
+- in C++ you have templates and in Java they are called generics
