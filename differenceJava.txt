@@ -27,3 +27,8 @@ some other differences:
 - use #include instead import
 - you must include <string> and in Java you don't have to
 - in C++ you have templates and in Java they are called generics
+- auto can be used instead of data type when the type is clear from context
+- brace initialization
+- bool instead of boolean
+
+
