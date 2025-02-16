@@ -16,7 +16,9 @@ void printString(string str) {
     cout << "banana comes before apple" << endl;
   } else {
     cout << "apple comes before banana" << endl;
-  }             
+  }    
+  string s;
+  cout << "length of s: " << s.length() << endl;         
 }
 
 int main() {

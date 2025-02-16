@@ -28,7 +28,7 @@ void print(const array<string, ARRSIZE>& names, int numElts) //, string filename
         cout << names[i] << " "; 
     }
     cout << "]" << endl << endl;   
-    // Method 2: Range-based for loop (cleaner)    
+    // Method 2: Range-based for loop (will print all locations in the array)    
     for (string element : names) {
         cout << element << " "; 
     }
@@ -58,7 +58,7 @@ int load(array<string, ARRSIZE>& names, string filename)
         if (i >= names.size())
         {
             cerr << "Array is full" << endl;
-            return names.size();
+            exit(EXIT_FAILURE);
         }
         else
         {
@@ -89,8 +89,7 @@ void sort_arr(array<string, ARRSIZE>& names, int numElts)
     }
 }
 
-/*************************************************************************************** 
- * You can put this in to help you test your code. */
+/***************************************************************************************/
  
 int main()
 {
