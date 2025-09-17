@@ -7,13 +7,13 @@ then, in lab 1, you will add functions. */
 using namespace std;
 
 int main() {
-    string filename = "my_file.txt"; 
+    string filename = "myfile.txt"; 
     ifstream file(filename); 
     int i=1;
 
     if (file.is_open()) {
         string line;
-        while (getline(file, line)) { 
+        while (file>>line) {  // getline(file, line)) { 
             cout << i++ << ": " << line << endl;
         }
         file.close();

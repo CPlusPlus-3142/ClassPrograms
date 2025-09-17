@@ -1,28 +1,56 @@
 What differences did you notice so far between C++ and Java?
 
 1. in C++ you include .h (header) files, while in Java you import the class
+
 2. in Java all variables are on the stack and all objects are on the heap
    in C++ you can place objects on the stack and regular variable on the heap
    (you don't need to say 'new' to get an object)
+
+   in Java, all objects are 2-part, the reference variable and the actual 
+   object on the heap.
+
 3. << and >> in Java are bitwise shift while in C++ they are used for input, out
 using cin and cout
+
 4. in C++ you can use operators as functions on objects
    str[i], str1<str2           (operator overloading doesn't exist in Java)
+
 5. C++ gives more direct access to memory (we still have to talk about this)
+
 6. C++ has the possibility of passing parameters by reference (&)
    in Java all parameters are passed-by-value
+
 7. In Java, the compiler creates .class files that are portable across all
    platforms, while in C++ the compiler and linker create an executable specific to
    the machine that it compiled on.
+
 8. In C++ there is more responsibility on the programmer.
+
 9. In C++, there is no garbage collection, so the program has to
    be responsible to delete memory allocated with new.
    (we still did not speak about this)
+
 10. In C++, with a regular array, the size must be known by compile time
 int arr[SIZE];
+const int SIZE=10;
+constexpr 
+
 11. in Java, an unitialized variable is a compiler error, not so in C++
-12. in Java, objects and arrays are zeroed out. In C++ arrays are not initialized.
+
+12. in Java, objects and arrays are zeroed out. In C++ arrays are not 
+initialized.
+
 13. function declarations are needed in C++
+
+14. There's such a concept as Global variables in C++
+
+15. C++ has namespaces
+
+16. Strings in Java are immutable and in C++ you can modify strings
+
+17. The = sign when used on objects for both assignment and initialization, 
+in Java you are copying references, 
+and in C++ you can actual copy the values in the object.
 
 some other differences:
 - use #include instead import
